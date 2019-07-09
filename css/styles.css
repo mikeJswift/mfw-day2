@@ -1,0 +1,47 @@
+.container-fluid {
+    background-color: yellow;
+}
+
+header {
+    background-color: blue;
+}
+
+nav {
+    background-color: green;
+}
+
+section .col-md-8 {
+    background-color: red;
+}
+
+aside {
+    background-color: aqua;
+}
+
+.promo {
+    background-color: orange;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+header,
+.col-md-3 {
+    height: 150px;
+}
+
+nav,
+footer {
+    height: 50px;
+}
+
+section .col-md-8,
+aside {
+    height: 200px;
+}
+
+.black-border, .promo {
+    border: 2px solid #000;
+}
